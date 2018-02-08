@@ -57,8 +57,8 @@ class LoginForm extends Component {
 
 const mapStateToProp = (_data) => {
     return {
-        name : _data.info.name,
-        mobile : _data.info.mobile
+        name : _data._change.name,
+        mobile : _data._change.mobile
     }
 }
 

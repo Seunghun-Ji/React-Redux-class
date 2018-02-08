@@ -9,7 +9,7 @@ const initialState = { //default 값
     }
 }
 
-export default function info (state, action) {
+export default function _change (state, action) {
     //만약 parameter로 state = initialState로 선언했을 경우, default value 값을 자동으로 넣어주므로 아래 내용은 생략해도 된다.
     console.log(state, action);
     if (typeof state === 'undefined') { //Store 처음 생성 시 한번 실행되도록 생성

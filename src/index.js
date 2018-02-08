@@ -13,7 +13,7 @@ import reducers from './reducers';
 const store = createStore(reducers);
 
 console.log(store);
-console.log(store.getState())
+console.log(store.getState()) //현재 store에 있는 데이터를 반환한다.
 console.log(store.subscribe(function (_event) {
     console.log(_event);
 }))

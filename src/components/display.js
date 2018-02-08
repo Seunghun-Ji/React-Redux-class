@@ -15,8 +15,8 @@ class Display extends Component {
 //connect는 2개의 parameter를 필요로 한다.
 const mapStateToProps = (_data) => { //여기서 _data는 store에 저장된 data
     return {
-        name : _data.info.name,
-        mobile : _data.info.mobile
+        name : _data._change.name,
+        mobile : _data._change.mobile
     }
 }
 
